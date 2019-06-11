@@ -2,7 +2,7 @@
 3D VLP using regression neural network
 
 1. data_WKNN
-    Locate the camera using WKNN(weighted K-nearest neighbor) in same dataset. (It's useless because of the very lager positioning error)
+    Locate the camera using WKNN (weighted K-nearest neighbor) in same dataset. (It's useless because of the very lager positioning error)
     
     WKNN.py-main function using WKNN method
     W_loss.txt--the MSE (mean square error) with different K's value.
@@ -25,7 +25,7 @@
 3. matlab_tools
     Locate the camera using geometrical method to campare with RNN method. (Which is showed in my graduate thesis.)
     
-    camera_3D_1.m--Generate the dataset for positioning, Which the above "same dataset" refers to.
+    camera_3D_1.m--Generate the dataset for positioning, which the above "same dataset" refers to.
     get_image_point_coordinate--Input the LED's position and 
     fun_position.m--Obtain the cooridinate of camera by newton method.
     fun_forK.m--Obtain the Jacobian matrix in newton method.
